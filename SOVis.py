@@ -104,12 +104,6 @@ labelprolist.place(x=805,y=0,width=330,height=20)#inicia en la esquina superior 
 #BOX
 prolist = tk.Listbox(ventana, width=20, height=10) 
 prolist.place(x=805,y=20,width=380,height=100)
-#Procesos en el CPU////////////////////////////////////////////
-##labelprores = tk.Label(ventana,text="Procesos restantes")
-##labelprores.place(x=805,y=125,width=330,height=20)
-#BOX
-##prores = tk.Listbox(ventana, width=20, height=10)  # 20 caracteres de ancho, 10 líneas de alto
-##prores.place(x=805,y=150,width=380,height=100)
 #Procesos registrados///////////////////////////
 labelschel = tk.Label(ventana, text="Registro de Procesos")
 labelschel.place(x=805,y=125,width=330,height=20)
